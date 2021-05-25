@@ -16,8 +16,7 @@ array_Dxy.sh
 
 #  Use All_351_Dxy_Commands.txt or All_351_Dxy_Commands_Un.txt
 
-### Need to redo part two and three for Un - python syntax error with print? 
-### Add module load python2 and rerun
+### Use module load python2 
 
 
 array_Dxy_StatsFixed.sh
