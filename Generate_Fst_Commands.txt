@@ -1,0 +1,1 @@
+cat Amex_Pop_Pairs.txt | awk '{ print "$VCFTOOLS --vcf ${SRC}/${BIGVCF} --weir-fst-pop "$1"_samples.txt --weir-fst-pop "$2"_samples.txt --out "$1"_"$2"_Fst.txt"}' > Fst_Commands.txt
